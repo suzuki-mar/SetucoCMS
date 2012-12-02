@@ -3,7 +3,7 @@ global:
     - PLATFORM: PAGODABOX
     - ENV: production
 web1:
-  name: mediawiki
+  name: setucocms
   document_root: public/
   php_extensions:
     - mysql
