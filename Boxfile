@@ -1,0 +1,16 @@
+global:
+  env:
+    - PLATFORM: PAGODABOX
+    - ENV: production
+web1:
+  name: mediawiki
+  document_root: public/
+  php_extensions:
+    - mysql
+  shared_writable_dirs:
+    - cache
+    - images
+
+db1:
+  name: setucocms
+  type: mysql
